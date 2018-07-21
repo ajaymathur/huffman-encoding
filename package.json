@@ -2,5 +2,8 @@
   "name": "compression-algorithms",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "flow-bin": "^0.77.0"
+  }
 }
