@@ -1,1 +1,4 @@
 node_modules
+.keycode
+*.txt
+*.zip

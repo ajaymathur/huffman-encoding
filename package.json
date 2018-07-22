@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "flow-bin": "^0.77.0"
+    "flow-bin": "^0.77.0",
+    "left-pad": "^1.3.0"
   }
 }
