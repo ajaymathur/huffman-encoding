@@ -26,6 +26,4 @@ async function cli(argv) {
   }
 }
 
-cli(process.argv.slice(2)).then(() => {
-  console.log("done");
-});
+cli(process.argv.slice(2)).then(() => {});
