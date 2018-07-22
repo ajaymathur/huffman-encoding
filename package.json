@@ -1,5 +1,5 @@
 {
-  "name": "compression-algorithms",
+  "name": "huffman-encoding",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
