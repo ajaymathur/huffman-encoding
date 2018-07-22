@@ -2,7 +2,7 @@
 
 > Implementation of huffman coding algorithm in javascript
 
-<p style="color: red">This is not a product or production ready in any sense</p>
+***This is not a product or production ready in any sense***
 
 ## Huffman coding
 
@@ -71,5 +71,47 @@ Therefore the codes are:
 |y|1|11|
 
 Therefore, the element that appears for most number of times get the shortest code.
+
+## Using this repository
+
+Currently this code is not available on published on npm, [ maybe someday 🎃 ]. Therefore, please clone the repository in local and install all the dependencies.
+
+```sh
+$ git clone git@github.com:ajaymathur/huffman-encoding.git
+$ cd huffman-encoding
+$ yarn install
+```
+
+Please create test file in local maybe *text.txt* and [add come text to it](https://lipsum.com/).
+
+The *cli.js* file in root is executable. Execute cli.js.
+
+```sh
+$ ./cli.js encode text.txt
+```
+
+Couple of file will be created in you root directory *text.txt.zip*, is encoded file which should be smaller in size as compared to *text.js* is everything goes well and *.keycode*, this is the dictionary created by our program. This is in json file so please go ahead and take a look at it.
+
+To decode the encoded file, execute the *cli.js* file again:
+
+```sh
+$ ./cli.js decode text.txt.zip
+```
+
+This will create a new file *text.txt.zip.txt* which will be same as *text.txt*. I kept adding extensions instead of creating one's for testing purposes.
+
+🔥 isn't it?
+
+## API
+
+```sh
+$ ./cli.js <command> <fileName> <targetFileName>
+```
+
+**command:** ( encode | decode ) Use encode to compress (encode) the file and decode to uncompress (decode) the file.
+
+**fileName:** ( string ) Pass the name of the file to execute the command on.
+
+**targetFileName:** ( optional: string ) Pass the name of target file that will be created by the operation.
 
 ## :)
